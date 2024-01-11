@@ -1,0 +1,16 @@
+/* Add to CartButton.css */
+.cart-button {
+  border: 1px solid #666;
+  width: 35%;
+  margin-top: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: auto;
+  position: sticky !important;
+  top: 0;
+  transition: .3s;
+  
+  margin-right: -100%;
+  opacity: 0;
+  }
+  

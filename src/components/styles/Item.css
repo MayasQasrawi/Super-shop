@@ -1,0 +1,57 @@
+/* src/components/Item.css */
+.item-card {
+    width: 200px; /* Adjust width as needed */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+    text-align: center;
+    background: white;
+  }
+  
+  .item-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .item-info {
+    padding: 0.5em;
+  }
+  
+  .item-name {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+  }
+  
+  .item-price {
+    font-size: 1.5em;
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .item-add-button {
+    display: block;
+    margin: 10px auto;
+    border: none;
+    background-color: rgb(138, 17, 17);
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .item-add-button:hover {
+    background-color: #f2b807;
+  }
+
+
+
+  @media screen and (max-width: 850px) {
+    .item-card  {
+      display: block;
+    }
+    
+  }

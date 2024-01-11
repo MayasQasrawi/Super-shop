@@ -1,0 +1,12 @@
+/* src/components/Section.css */
+.section {
+    margin: 2em 0;
+  }
+  
+  .section-title {
+    margin-bottom: 1em;
+    padding-left: 0.5em;
+    font-size: 1.5em;
+    border-left: 4px solid #5cb85c;
+  }
+  
